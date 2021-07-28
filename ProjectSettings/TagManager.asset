@@ -9,6 +9,7 @@ TagManager:
   - ToHeavyBall
   - ToNormalBall
   - fail
+  - MainGUI
   layers:
   - Default
   - TransparentFX

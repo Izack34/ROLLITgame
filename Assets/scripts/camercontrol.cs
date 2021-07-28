@@ -6,11 +6,15 @@ public class camercontrol : MonoBehaviour
      {
         public float yMin = -10;
         public float yMax = 40;
+        
         float xRotation = 0;
         float yRotation = 0;
+
         public GameObject target;
+
         public float distance = 10.0f;
         public float sensitivity = 3.0f;
+
         private Rigidbody rb_c;
         private Vector3 offset;
      

@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class warning : MonoBehaviour
 {
+    private InGameGui Gui;
 
-    public GameObject warning_text;
-    // Start is called before the first frame update
+    private void Start() {
+        Gui = GameObject.FindWithTag("MainGUI").GetComponent<InGameGui>();
+    }
 
     void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Player"))
         {
-            warning_text.SetActive(true);
+            Gui.WarningActive();
         } 
     }
 
