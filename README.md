@@ -8,10 +8,10 @@ Player must score three stars to be able to finish.
 
 Unity version: 2019.4
 
-Screen from Gameplay  
+##Screen from Gameplay  
 ![gameplay](https://github.com/Izack34/ROLLITgame/blob/master/inGame.PNG)
 
-Short clip of Gameplay
+##Short clip of Gameplay
 
 
 
